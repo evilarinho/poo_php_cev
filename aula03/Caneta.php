@@ -13,10 +13,10 @@ class Caneta {
             echo "<p>Estou rabiscando...</p>";
         }        
     }
-    private function tampar() {
+    public function tampar() {
         $this->tampada = true;
     } 
-    private function destampar() {
+    public function destampar() {
         $this->tampada = false;
 
     }
